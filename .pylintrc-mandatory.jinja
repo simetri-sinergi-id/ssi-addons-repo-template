@@ -56,7 +56,8 @@ enable=anomalous-backslash-in-string,
     unreachable,
     use-vim-comment,
     wrong-tabs-instead-of-spaces,
-    xml-syntax-error{% block optional_checks %}{% endblock %}
+    xml-syntax-error,
+    file-not-used{% block optional_checks %}{% endblock %}
 
 [REPORTS]
 msg-template={path}:{line}: [{msg_id}({symbol}), {obj}] {msg}
